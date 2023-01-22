@@ -1,0 +1,20 @@
+.pricesSection {
+    padding: 50px 0;
+}
+
+.pricesSection .container {
+    max-width: 1000px;
+}
+
+.priceCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 -15px;
+}
+
+@media(min-width: 767px) {
+    .pricesSection {
+        padding: 105px 0;
+    }
+}
